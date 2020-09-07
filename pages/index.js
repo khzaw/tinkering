@@ -4,9 +4,13 @@ import PostList, {
   allPostsQueryVars,
 } from "../components/PostList";
 import { initializeApollo } from "../lib/apolloClient";
+import Link from "next/link";
 
 const IndexPage = () => (
   <App>
+    <Link href="/paged">
+      <a>Inner</a>
+    </Link>
     <PostList />
   </App>
 );
