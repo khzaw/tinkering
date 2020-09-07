@@ -4,11 +4,9 @@ import PostList2, {
   allPostsQueryVars2,
 } from "../components/PostList2";
 import { initializeApollo } from "../lib/apolloClient";
-import Menu from "../components/Menu";
 
 const Paged = () => (
   <App>
-    <Menu />
     <PostList2 />
   </App>
 );

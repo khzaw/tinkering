@@ -4,11 +4,9 @@ import PostList, {
   allPostsQueryVars,
 } from "../components/PostList";
 import { initializeApollo } from "../lib/apolloClient";
-import Menu from "../components/Menu";
 
 const IndexPage = () => (
   <App>
-    <Menu />
     <PostList />
   </App>
 );
